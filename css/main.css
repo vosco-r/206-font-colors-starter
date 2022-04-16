@@ -1,0 +1,57 @@
+body, html {
+  text-align: center;
+  font-family: Gotham, Helvetica, Arial, sans-serif;
+  font-size: 1em;
+}
+
+section {
+  width: 50%;
+  margin: auto;
+}
+
+body section h1 {
+  color: #7b7d70;
+  font-size: 2em;
+}
+
+body section h2 {
+  color: #4eafb8;
+  font-size: 1.5em;
+}
+
+body section p {
+  color: #ff8641;
+}
+
+/* ----------- For screens 768px and larger ----------- */
+@media screen (min-width: 768px) {
+	
+    body section h1 {
+      color: #02cbd2;
+    }
+    
+    body section h2 {
+      color: #fcc02a;
+    }
+    
+    body section p {
+      color: #7b8f8e;
+    }
+}
+
+/* ----------- For screens 1200px wide and larger----------- */
+@media screen (min-width: 1200px) {
+	
+	body section h1 {
+	  color: #6e4b61;
+	}
+	
+	body section h2 {
+	  color: #cabd61;
+	}
+	
+	body section p {
+	  color: #c19e74;
+	}
+}
+
